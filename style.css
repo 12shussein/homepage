@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: "Work sans", sans-serif;
+  background: #55d6aa;
+  font-weight: 300;
+}
+
+.container {
+  width: 80%;
+  height: 500%;
+  margin: 0 auto;
+}
+h1 {
+top-margin: 0px;
+text-align: center;
+color: red;
+height: 15px;
+width: 100%;
+}
+
+header {
+  background-color: #55d6aa;
+}
+
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav a:hover {
+  color: #000;
+}
+
+nav a:before {
+  content: "";
+  display: block;
+  height: 10px;
+  background-color: #444;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 500ms;
+}
+nav a:hover::before {
+  width: 100%;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.c-site-header{
+  
+  color: #FF0000;
+  display: inline-block;
+  margin-right: 70px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 30px;
+  position: relative;
+  font-family: Lucida Console;
+  font-style: italic;
+}
+#about{ 
+  margin:  0 0 0px;
+  background-color: white;
+  text-align: left;
+  
+}
+
+img{
+  float: initial;
+  margin-left: 0px 0px 0px 30px;
+  width: 250px;
+  height: 250px;
+  }
+.separator {
+  border-bottom: 8px dashed #222222;
+  clear: both;
+  height: 8px;
+  margin: 50px auto;
+  width: 1000px autopx;
+}
+#paragraph {
+  font-family: arial;
+  font-size: 1.15rem;
+}
+hr { background-color: black;
+  height: 2.5px;
+  border: 0;
+}
